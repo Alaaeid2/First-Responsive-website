@@ -1,0 +1,77 @@
+header{
+    background-image: url(../images/background.jfif);
+    background-size: cover;
+    background-position: center center;
+    animation-name: slider;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-size: 100% 100%;
+    animation-delay: 3s;
+}
+.navbar{
+    background-color: rgba(52,58,64,.3);
+    color: #fff;
+}
+.nav-link:hover{
+    border-bottom: solid 1px #fff;
+    background-color: rgba(105, 0, 209, 1);
+}
+
+@keyframes slider{
+    0%{background-image: url(../images/background.jpg);}
+    13%{background-image: url(../images/1.jfif);}
+    26%{background-image: url(../images/2.jpg);}
+    39%{background-image: url(../images/3.jpg);}
+    52%{background-image: url(../images/4.jpeg);}
+    68%{background-image: url(../images/5.jpg);}
+    80%{background-image: url(../images/6.jpg);}
+    90%{background-image: url(../images/7.jfif);}
+    100%{background-image: url(../images/background.jfif);}
+}
+header h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.icon{
+    width: 32px;
+    height: 32px;
+    border: solid 1px rgba(255, 255, 255, .5);
+}
+.color-main{
+    color:#ff206e !important ;
+}
+.title h2{
+    font-size:80px;
+    font-weight: 900;
+    color:#f1f1f1;
+}
+.title h3{
+    font-size:40px;
+    font-weight: 900;
+    color: #000
+}
+.carousel-item img{
+    width: 100px;
+    height: 100px;
+    transform: translateY(50%);
+    border: solid 1px #fff;
+}
+.client-feedback{
+    border: solid 2px #f1f1f1;
+}
+.testmonials{
+    font-family: 'Segoe UI light';
+}
+.carousel-indicators li{
+    width: 50px;
+    height: 50px;
+    text-indent: 0%;
+    border-radius: 50%;
+
+}
+
+.footer {
+    background-color:#233240;
+
+  }
